@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kayit ekrani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center2">
+        <h1>⋆ register</h1>
+        <form method="post">
+            <div class="txt_field2">
+                <input type="text" required>
+                <span></span>
+                <label>username</label>
+            </div>
+            <div class="txt_field2">
+                <input type="text" required>
+                <span></span>
+                <label>email</label>
+            </div>
+            <div class="txt_field2">
+                <input type="datetime" required>
+                <span></span>
+                <label>birth date</label>
+            </div>
+            <div class="txt_field2">
+                <input type="password" id="regPas" required>
+                <span></span>
+                <label>password</label>
+            </div>
+            <div class="txt_field21"> 
+                <span type="button" class="toggle-password" onclick="togglePasswordVisibility()">show password</span>  
+            </div>
+            <input type="submit" value="register">
+        </form>
+        <script src="code.js"></script>
+</body>
+</html>
